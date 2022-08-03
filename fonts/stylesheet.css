@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Ghibli';
+    src: url('Ghibli-Bold.eot');
+    src: url('Ghibli-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Ghibli-Bold.woff2') format('woff2'),
+        url('Ghibli-Bold.woff') format('woff'),
+        url('Ghibli-Bold.ttf') format('truetype'),
+        url('Ghibli-Bold.svg#Ghibli-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ghibli';
+    src: url('Ghibli.eot');
+    src: url('Ghibli.eot?#iefix') format('embedded-opentype'),
+        url('Ghibli.woff2') format('woff2'),
+        url('Ghibli.woff') format('woff'),
+        url('Ghibli.ttf') format('truetype'),
+        url('Ghibli.svg#Ghibli') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

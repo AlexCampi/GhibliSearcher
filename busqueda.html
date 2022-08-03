@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/imgWeb/icons/favicon.png" sizes="any">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Búsqueda</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <a href="index.html"><img class="header__logo" src="images/Logos/amarilloGhibliSearcherLogo.png" alt="Ghibli Searcher Logo"></a>
+            <nav class="header__menu">
+                <input type="checkbox" class="header__menu-checkinput" id="burger">
+                <label for="burger" class="header__menu-checkbttn">
+                    <img class="header__menu-burgerImg" src="images/imgWeb/icons/burgerMenu.svg">
+                </label>
+                <ul class="header__list">
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="acercaDe.html">Acerca de</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#" style="text-decoration: underline #F4EBBA 2px;">Búsqueda</a>
+                        <ul class="header__menu-list">
+                            <li class="header__menu-list-item">
+                                <a class="header__menu-list-link" href="busquedaPersonaje.html">Personaje</a>
+                            </li>
+                            <li class="header__menu-list-item">
+                                <a class="header__menu-list-link" href="busquedaLocalizacion.html">Localización</a>
+                            </li>
+                            <li class="header__menu-list-item">
+                                <a class="header__menu-list-link" href="busquedaVehiculo.html">Vehículo</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="favoritos.html">Favoritos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="buscador">
+        <div class="buscador__container container">
+            <img class="buscador__img" src="images/imgWeb/ghibliBusqueda.jpg" alt="Personajes Ghibli">
+            <h1 class="buscador__title">Búsqueda</h1>
+            <p class="buscador__p">Si quieres buscar la película de Studio Ghibli que tanto te gustó por ese personaje que tanto te marcó, esa localización tan idílica o ese vehículo que tanto te gustó... ¡Has llegado al sitio adecuado! Elige aquí abajo la opción que más te convenga, introduce los datos y como por arte de magia aparecerá la película en la que salió.</p>
+            <div class="buscador__button-container">
+                <a class="buscador__button-link button" href="busquedaPersonaje.html">Búsqueda por personaje</a>
+                <a class="buscador__button-link button" href="busquedaLocalizacion.html">Búsqueda por localización</a>
+                <a class="buscador__button-link button" href="busquedaVehiculo.html">Búsqueda por vehículo</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container grid grid--2-cols container">
+            <a class="footer__link grid__item" href="#">
+                <img class="footer__img" src="images/Logos/amarilloGhibliSearcherLogo.png" alt="Ghibli Searcher Logo">
+            </a>
+            <nav class="footer__menu">
+                <ul class="footer__list">
+                    <li class="footer__menu-item">
+                        <a class="footer__menu-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a class="footer__menu-link" href="acercaDe.html">Acerca de</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a class="footer__menu-link" href="#">Búsqueda</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a class="footer__menu-link" href="favoritos.html">Favoritos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <p class="footer__derechos">© 2022 Ghibli Research</p>
+    </footer>
+</body>
+</html>
